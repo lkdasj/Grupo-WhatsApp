@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="img/shlln.jpg">
+  <title>Verifica tu edad</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="icon" href="img/shlln.jpg">
+</head>
+<body>
+  <div class="container">
+    <h1>Verifica tu Edad para Ingresar al Grupo</h1>
+    <form id="ageVerificationForm">
+      <label for="birthdate">Fecha de Nacimiento:</label>
+      <input type="date" id="birthdate" name="birthdate" required>
+      <button type="submit">Verificar</button>
+    </form>
+    <p id="verificationMessage"></p>
+    <div id="rules" style="display: none;">
+      <h2>Condiciones de Uso</h2>
+      <p>Al acceder al grupo de WhatsApp, aceptas cumplir con las siguientes condiciones:</p>
+      <ul>
+        <li>Tener entre 16 y 25 años de edad.</li>
+        <li>Respetar las opiniones y creencias de los demás miembros del grupo.</li>
+        <li>Evitar el uso de lenguaje ofensivo, discriminatorio o vulgar.</li>
+        <li>No compartir contenido inapropiado, como material pornográfico o violento.</li>
+        <li>No promover ni participar en actividades ilegales, como la venta de drogas o la promoción de la violencia.</li>
+        <li>Mantener la privacidad y confidencialidad de los miembros del grupo, evitando compartir información personal sin permiso.</li>
+        <li>Evitar el spam y la publicidad no solicitada en el grupo.</li>
+        <li>Contribuir de manera positiva a las conversaciones y evitar los debates destructivos o polarizados.</li>
+        <li>Reportar cualquier comportamiento inapropiado o violación de los reglamentos a los administradores del grupo.</li>
+      </ul>
+      <button id="acceptButton">Aceptar</button>
+      <a href="https://chat.whatsapp.com/K3PaUDQMby9KbQTzmMD20o" id="whatsappLink" style="display: none;" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+        <span>Únirse al Grupo de WhatsApp</span>
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

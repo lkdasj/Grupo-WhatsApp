@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("img/1337390.png"); /* Ruta a tu imagen de fondo */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Para cubrir todo el área visible */
+    background-attachment: fixed; /* Hacer que la imagen de fondo sea estática */
+    width: 100%; /* Ajustar al ancho completo del viewport */
+    height: 100vh; /* Usar altura del viewport */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  #verificationMessage {
+    text-align: center;
+  }
+  
+  #rules {
+    margin-top: 20px;
+  }
+  
+  #rules h2 {
+    margin-top: 0;
+  }
+  
+  #rules p {
+    margin-bottom: 10px;
+  }
+  
+  #rules ul {
+    margin-top: 0;
+    padding-left: 20px;
+  }
+  
+  #acceptButton {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #whatsappLink {
+    display: inline-flex; /* Usar flexbox */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  #whatsappLink:hover {
+    background-color: #218838;
+  }
+  
+  #whatsappLink i {
+    position: absolute; /* Hacer los íconos absolutos */
+    top: 50%; /* Centrar verticalmente */
+    transform: translateY(-50%); /* Ajustar la posición vertical */
+  }
+  
+  #whatsappLink i:first-child {
+    left: 10px; /* Ajustar la posición del primer ícono */
+  }
+  
+  #whatsappLink i:last-child {
+    right: 10px; /* Ajustar la posición del segundo ícono */
+  }
+  
+  #whatsappLink span {
+    margin-left: 25px; /* Agregar margen izquierdo al texto */
+    margin-right: 25px; /* Agregar margen derecho al texto */
+  }
+  
+  
